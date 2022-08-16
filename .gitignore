@@ -1,0 +1,9 @@
+node_modules
+dist
+yarn.lock
+yarn-error.log
+src/locales/_build
+src/locales/**/*.js
+.env
+.idea
+coverage

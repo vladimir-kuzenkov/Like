@@ -1,0 +1,26 @@
+{
+    "compilerOptions": {
+        "experimentalDecorators": true,
+        "outDir": "./dist/",
+        "sourceMap": true,
+        "noImplicitAny": false,
+        "module": "commonjs",
+        "target": "es5",
+        "jsx": "preserve",
+        "removeComments": true,
+        "strict": true,
+        "lib": ["es5", "es6", "dom"],
+    },
+    "include": [
+        "./src/**/*",
+        "custom.d.ts"
+    ],
+    "exclude": [
+        "./node_modules/*",
+        "/locale/**",
+        "config",
+        "babel.config.js",
+        "metro.config.js",
+        "jest.config.js"
+    ],
+}
